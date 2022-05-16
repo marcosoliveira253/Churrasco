@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 0;
+    background-color: black;
+}
+h1{
+    color: white;
+    padding: 8px;
+}
+main{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin:auto;
+}
+.dados {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.dados label {
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.dia {
+    color: rgb(10, 7, 6);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checar {
+    color: rgb(10, 9, 12);
+    background: rgba(248, 246, 246, 0.4);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+input {
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: chartreuse;
+}
+
+@media (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    header{
+       display: inline-block;
+       text-align: center;
+    
+   }
+    .formulario {
+    border: none;       
+    }
+    .checar {
+        color: #f7f7f0;
+        background: rgba(37, 33, 33, 0.8);
+    }
+    .dia {
+        color: white;
+    }
+
+}

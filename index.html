@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Churrasco</title>
+</head>
+<body>
+    <header>
+        <h1>HOJE TEM CHURRASCO</h1>        
+    </header>
+    <main>
+        <h3>O que vou levar?</h3>
+    </main>
+    <form class="formulario" method="post">
+
+        <div class="dados">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required>
+        </div>
+
+        <div class="dados">
+        <label for="local">Local</label>
+        <input type="text" id="local" required>
+        </div>
+
+        <div class="dia">
+        Data do churrasco: <input type="datetime-local" name="churrasco">
+        </div>
+
+        <div class="checar">
+        <input type="checkbox" name="carne" value="carne">Eu vou levar carne<br>
+        <input type="checkbox" name="bebidas" value="bebidas">Eu vou levar bebidas<br>
+        <input type="checkbox" name="guarana" value="guarana">Eu vou levar guaraná
+        </div>
+
+        <input type="submit" value="Enviar Formulário">
+
+    </form>
+    
+</body>
+</html>
